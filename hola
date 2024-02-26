@@ -1,0 +1,198 @@
+ FRIKADAS: Los 10 proyectos más tontos (pero interesantes) para Raspberry Pi | 5 errores que suponen el despido inmediato de un programador
+TRUCO VS #3: Selección de bloques y edición multi-cursor
+Por José Manuel Alarcón
+✔️ Todo lo que necesitas saber para poder crear tests en aplicaciones .NET (incluyendo aplicaciones Web) lo encontrarás en este curso.
+
+Una necesidad común a la hora de editar código es la de modificar varias línea de manera idéntica. Esto tiene dos posibles vertientes:
+
+    Copiar, cortar o eliminar código de varias líneas a la vez
+    Escribir el mismo código en varias líneas al mismo tiempo
+
+Selección de bloques de código
+
+Por ejemplo, imagínate que tienes una clase con varias propiedades de longitud similar que debes reutilizar en otro lado para asignarle valores diferentes. Puedes copiar las líneas completas, pegarlas en otro lado y luego eliminar todo lo que te sobre, línea a línea. O puedes usar el truco que te voy a contar a continuación: la selección de una caja.
+
+Normalmente cuando seleccionas con el cursor varias líneas, a medida que bajas se seleccionan las líneas completas, así:
+
+Selección normal, solo con el cursor
+
+En este caso empiezas a arrastrar hacia abajo el cursor con el ratón y, a medida que bajas, se seleccionan las líneas enteras, sin necesidad de llegar al final de éstas.
+
+Sin embargo, si mientras bajas el cursor pulsas la tecla ALT verás que ahora se selecciona solamente el área que abarca la posición inicial del curso y la actual, creando una selección rectangular:
+
+Selección rectangular en Visual Studio
+
+Una vez seleccionado un rectángulo, normalmente con código idéntico o muy parecido, puedes modificarlo todo de golpe, por ejemplo borrándolo como en la animación anterior o bien copiándolo, cortándolo o arrastrándolo a otro lado con el cursor. Muy útil.
+Edición multi-cursor
+
+    Nota: lo que pone a continuación es para Visual Studio 2013, 2015 y 2017. En Visual Studio 2019 viene de serie y no es necesario. En VS 2019 puedes usar CTRL+Pulsar con el ratón par elegir varias líneas a la vez, y CTRL+ALT+Pulsar para elegir puntos concretos en los que colocar múltiples cursores.
+
+Pero al mismo tiempo que tenemos la necesidad de seleccionar código en un rectángulo también a veces tenemos la necesidad de escribir código en varias líneas a la vez.
+
+Esto siempre ha sido problemático en Visual Studio, y la verdad es que, tal cual lo instalas, es complicado de conseguir. De hecho, sin ayuda externa lo único que puedes conseguir es editar varias líneas a la vez si los cursores están todos en la misma vertical. Para ello debes pulsar al mismo tiempo ALT+Mayúsculas y mover el cursor hacia arriba o hacia abajo (o pulsar con el ratón), consiguiendo varios puntos de inserción simultáneos:
+
+Edición simultánea en la misma vertical
+
+En este ejemplo hemos editado tres líneas a la vez, pero el cursor estaba en la misma vertical. Si intentamos ponerlo en otro sitio lo que haremos será seleccionar un bloque, como antes, ya que en el fondo esto es una variante de lo que acabamos de ver para seleccionar bloques.
+
+Podemos solucionar el problema y conseguir una edición multi-línea de verdad utilizando la extensión llamada Multi Edit Mode de Mads Kristensen. Mads forma parte del equipo de Visual Studio desde hace muchos años y es autor de una cantidad enorme de extensiones indispensables como esta.
+
+Para instalarla puedes hacerlo directamente desde Visual Studio como se ve en este vídeo corto:
+
+Como se ve en el vídeo, tendrás que reiniciar Visual Studio y aceptar la "modificación del entorno" que es como lo pregunta ahora Visual Studio 2017, pero una vez reiniciado el entorno funcionará perfectamente cuando pulses la tecla ALT:
+
+Edición con múltiples cursores en Visual Studio
+
+Como vemos, el cursor ahora puede estar en varias verticales distintas además de en varias líneas, que es su verdadera utilidad. En la animación anterior no se aprecia bien debido a la auto-selección de cadenas iguales que hace Visual Studio, pero queda marcada la posición de cada cursor con una pequeña raya vertical.
+
+La verdad es que es increíble que, tras tantos años, Visual Studio no incorpore esta funcionalidad "de serie", pero al menos podemos tenerla instalando esta extensión tan práctica.
+
+¡Espero que te resulte útil!
+
+    Otros trucos de esta serie:
+
+        TRUCO VS #1: Encuentra cualquier cosa instantáneamente en Visual Studio
+        TRUCO VS #2: Las 5 teclas rápidas sin las que no podrás volver a trabajar
+
+Fecha de publicación: 5 de septiembre de 2017
+👉 Ahórrate problemas y dolores de cabeza con nuestro curso de Testing de aplicaciones
+José Manuel Alarcón Fundador de campusMVP, es ingeniero industrial y especialista en consultoría de empresa. Ha escrito diversos libros, habiendo publicado hasta la fecha cientos de artículos sobre informática e ingeniería en publicaciones especializadas. Microsoft lo ha reconocido como MVP (Most Valuable Professional) en desarrollo web desde el año 2004 hasta la actualidad. Puedes seguirlo en Twitter en @jm_alarcon o leer sus blog técnico o personal. Ver todos los posts de José Manuel Alarcón
+Archivado en: Herramientas
+3 comentarios
+¿Te ha gustado este post?
+Pues espera a ver nuestro boletín...
+
+Suscríbete a la newsletter
+
+¿Te ha gustado este artículo? ¡Compártelo!
+
+
+
+
+
+
+
+
+
+
+
+
+
+logo de campusMVP
+Si nuestro blog te parece interesante, espera a ver nuestros cursos
+Ver cursos
+Comentarios (3)
+-
+Mario Robero
+Mario Robero
+06/08/2020 1:09:37
+
+Muchas gracias por la información, era algo que estaba buscando desde hace tiempo y lo haz explicado muy bien. Saludos cordiales.
+
+Responder
+Matias
+Matias
+20/02/2021 15:00:24
+
+Disculpa pero ZARPADO!
+
+Responder
+Diana
+Diana
+21/07/2022 18:48:49
+
+muchas gracias por este articulo, que buena explicación me sirvió demasiado !
+
+Responder
+Agregar comentario
+
+Nombre*
+
+Correo Electrónico*
+
+Sitio Web
+
+Comentario*
+
+Notificarme cuando se publiquen nuevos comentarios
+
+Los datos anteriores se utilizarán exclusivamente para permitirte hacer el comentario y, si lo seleccionas, notificarte de nuevos comentarios en este artículo, pero no se procesarán ni se utilizarán para ningún otro propósito. Lee nuestra política de privacidad.
+
+Huevo, perro, abeja o viernes, ¿cuál es un día de la semana?
+Artículos recientes
+
+    Apple elimina las PWA en Europa: ¿Libertad o seguridad?
+    Actualidad: JS en tus apps .NET, habla con tus datos, Apple rompe las PWAs, sudo en Windows, Windows95Man, vuelta al pasado y muchas cosas más
+    ¿Controladores o minimal APIs para crear APIs con .NET?
+    Volcados de memoria en Kubernetes para depurar aplicaciones .NET
+    Thread.Sleep vs Task.Delay en .NET: cómo introducir retardos en tu código correctamente
+
+Nuestros Cursos y Libros
+
+    Cursos de Programación Web
+    Cursos de Acceso a Datos
+    Cursos de Lenguajes y Plataformas
+    Preparación de Exámenes Oficiales
+    Libros de programación
+
+Últimos vídeos
+
+
+
+Comentarios Recientes
+
+    Todo sobre los enlaces en HTML (40)
+    José Manuel Alarcón escribió: JavaScript 😉 https://www.campusmvp.es/recursos... [Más]
+    Todo sobre los enlaces en HTML (40)
+    Carlos escribió: Sé un poco de programación, pero estoy un poco oxi... [Más]
+    Todo sobre los enlaces en HTML (40)
+    José Manuel Alarcón escribió: Hola Carlos: Para eso tienes que utilizar códig... [Más]
+    Todo sobre los enlaces en HTML (40)
+    Carlos escribió: Tengo una duda, tengo diferentes links que cambian... [Más]
+    Los 5 lenguajes de programación más fáciles de aprender (19)
+    Chalo escribió: Que comentario tan grande... Este profesional ... [Más]
+
+Comment RSS
+
+    Twitter
+    Facebook
+    Linkedin
+    YouTube
+    Podcast
+    Boletín
+    RSS
+
+¿Qué vas a aprender a programar hoy?
+
+    Curso Java (Plataforma + Lenguaje)
+    Curso Kubernetes y Docker (DevOps)
+    Curso ASP.NET Core MVC (Backend)
+    Curso de Plataforma .NET y C#
+    Curso Creación de Aplicaciones De Gestión
+    Curso SQL Server (Especialista Base Datos)
+
+    Curso HTML5 y CSS3 para programación
+    Curso JavaScript/ECMAScript (Avanzado)
+    Curso Interfaces Responsive y Bootstrap
+    Curso Angular (Aplicaciones Web)
+    Curso Spring Boot
+    Ver todos los cursos
+
+    ¿Te ayudamos a decidir?
+
+logo campusMVP
+
+    Twitter Facebook LinkedIn YouTube Podcast Boletín Feed RSS 
+
+    ¿Por qué campusMVP?
+    Recursos para programadores
+    Bonifica tu curso
+    Servicios para empresas
+    Descuentos
+    Preguntas frecuentes
+    Contacto
+
+© Krasis Consulting S.L.U. - Aviso Legal y Política de privacidad - Política de Cookies - Gestionar cookies
+
+Utilizamos cookies propias y de terceros para personalizar y mejorar nuestros anuncios y servicios mediante el análisis anónimo de los hábitos de navegación de nuestros visitantes. Necesitamos tu consentimiento para utilizarlas. Puedes cambiarlas más tarde cuando quieras.
+Preferencias de cookies
